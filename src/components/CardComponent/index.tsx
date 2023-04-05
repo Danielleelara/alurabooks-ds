@@ -45,7 +45,7 @@ export const CardComponent = () => {
         <Info>Liderança em Design</Info>
         <Text>Habilidades de gestão para alavancar sua carreira</Text>
         <Text>Por: Vitor Zanini</Text>
-        <img src='../../assets/core.png'></img>
+        {/* <img src='../../assets/core.png'></img> */}
         <AbBotao/>
     </Card>
   )
