@@ -7,9 +7,6 @@ const Card = styled.div`
     flex-direction: column;
     align-items: flex-start;
     padding: 16px;
-    gap: 16px;
-
-    position: absolute;
     width: 380px;
     height: 283px;
     left: 65px;
@@ -20,9 +17,6 @@ const Card = styled.div`
     border-radius: 10px;
 `
 const Title  = styled.h1`
-    width: 106px;
-    height: 24px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -33,14 +27,25 @@ const Title  = styled.h1`
 `
 const Text  = styled.p`
     width: 304px;
-    height: 40px;
+height: 40px;
+`
+const Info = styled.p`
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+color: #002F52;
 `
 
 export const CardComponent = () => {
   return (
     <Card>
         <Title>Sobre o livro:</Title>
+        <Info>Liderança em Design</Info>
         <Text>Habilidades de gestão para alavancar sua carreira</Text>
+        <Text>Por: Vitor Zanini</Text>
+        <img src='../../assets/core.png'></img>
         <AbBotao/>
     </Card>
   )

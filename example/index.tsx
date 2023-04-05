@@ -8,7 +8,7 @@ const App = () => {
     <div>
       {/* <AbBotao/> */}
       <CardComponent/>
-    </div>
+    </div> 
   );
 };
 
