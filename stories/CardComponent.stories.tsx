@@ -10,4 +10,4 @@ export default {
 
 const Template: ComponentStory<typeof CardComponent> = () => <CardComponent/>
 
-export const Secondary = Template.bind({})
+export const Primary = Template.bind({})
