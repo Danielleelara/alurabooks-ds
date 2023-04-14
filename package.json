@@ -19,7 +19,8 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider build-storybook"
+    "build-storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider build-storybook",
+    "release": "auto shipit --base-branch=main"
   },
   "resolutions": {
     "@storybook/react-docgen-typescript-plugin": "1.0.6--canary.9.cd77847.0"
@@ -62,6 +63,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@types/styled-components": "^5.1.26",
+    "auto": "^10.44.0",
     "babel-loader": "^9.1.2",
     "husky": "^8.0.3",
     "react": "^18.2.0",
