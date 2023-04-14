@@ -1,3 +1,15 @@
+# v0.2.3 (Fri Apr 14 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat: adicionando AbInputQuantidade ([@Danielleelara](https://github.com/Danielleelara))
+
+#### Authors: 1
+
+- Danielle Souza  ([@Danielleelara](https://github.com/Danielleelara))
+
+---
+
 # v0.2.2 (Fri Apr 14 2023)
 
 #### ⚠️ Pushed to `main`
