@@ -3,7 +3,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { AbCampoTexto, CampoTextoProps } from '../src/components/AbCampoTexto'
 
 export default {
-  title: 'componentes/CampoTexto',
+  title: 'component/CampoTexto',
   component: AbCampoTexto,
   argTypes: {
     label: {
